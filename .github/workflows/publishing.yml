@@ -1,9 +1,12 @@
 name: Publishing
 
 on:
+  push:
+    branches:
+      - main
   workflow_run:
-    workflows: ["Testing and linting"]
     branches: [main]
+    workflows: ["Testing and linting"]
     types:
       - completed
 
