@@ -3,11 +3,9 @@ name: Publishing
 on:
   workflow_run:
     workflows: ["Testing and linting"]
+    branches: [main]
     types:
       - completed
-  push:
-    branches:
-      - main
 
 jobs:
   deploy:
