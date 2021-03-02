@@ -1,3 +1,5 @@
 export default function Foo() {
-	return <div>Foo page</div>;
+	return <div>
+		This page will fail test
+	</div>;
 }

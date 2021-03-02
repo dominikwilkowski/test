@@ -1,9 +1,9 @@
-name: Test and lint
+name: Testing and linting
 
 on: [push]
 
 jobs:
-  deploy:
+  testing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
