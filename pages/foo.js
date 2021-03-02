@@ -1,4 +1,3 @@
 export default function Foo() {
-	return <div>This page will fail the test, this should not deploy ever!7
-	</div>;
+	return <div>This page will not fail the test, this should deploy!8</div>;
 }
